@@ -48,20 +48,20 @@ class ViewController: UIViewController {
         var image: String = ""
         switch imc {
         case 0..<16:
-            result = "Thinness"
-            image = "abaixo"
+            result = BodyMass.Thinness.rawValue
+            image = BodyImage.Thinness.rawValue
         case 16..<18.5:
-            result = "Under weight"
-            image = "ideal"
+            result = BodyMass.Under_Weight.rawValue
+            image = BodyImage.Under_Weight.rawValue
         case 18.5..<25:
-            result = "Ideal weight"
-            image = "ideal"
+            result = BodyMass.Ideal_Weight.rawValue
+            image = BodyImage.Ideal_Weight.rawValue
         case 25..<30:
-            result = "Overweight"
-            image = "sobre"
+            result = BodyMass.Overweight.rawValue
+            image = BodyImage.Overweight.rawValue
         default:
-            result = "Obesity"
-            image = "obesidade"
+            result = BodyMass.Obesity.rawValue
+            image = BodyImage.Obesity.rawValue
         }
         lbResult.text = result
         ivResult.image = UIImage(named: image)
