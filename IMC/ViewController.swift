@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBAction func calculate(_ sender: Any) {
         
         if (tfWeight.text! == "" || tfHeight.text! == "") {
-            showToast("It's mandatory to inform the weight and the height!")
+            showToast(Toast.ToastWeightHeight.rawValue);
             
             return;
         

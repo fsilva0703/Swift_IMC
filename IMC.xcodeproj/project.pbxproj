@@ -13,6 +13,7 @@
 		6C8B6F0529214855005AB8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B6F0329214855005AB8BE /* Main.storyboard */; };
 		6C8B6F0729214857005AB8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B6F0629214857005AB8BE /* Assets.xcassets */; };
 		6C8B6F0A29214857005AB8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B6F0829214857005AB8BE /* LaunchScreen.storyboard */; };
+		6C8B6F1329575919005AB8BE /* enumToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B6F1229575919005AB8BE /* enumToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6C8B6F0629214857005AB8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C8B6F0929214857005AB8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C8B6F0B29214857005AB8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C8B6F1229575919005AB8BE /* enumToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumToast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6C8B6EFC29214855005AB8BE /* IMC */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B6F1129575869005AB8BE /* enum */,
 				6C8B6EFD29214855005AB8BE /* AppDelegate.swift */,
 				6C8B6EFF29214855005AB8BE /* SceneDelegate.swift */,
 				6C8B6F0129214855005AB8BE /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				6C8B6F0B29214857005AB8BE /* Info.plist */,
 			);
 			path = IMC;
+			sourceTree = "<group>";
+		};
+		6C8B6F1129575869005AB8BE /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B6F1229575919005AB8BE /* enumToast.swift */,
+			);
+			path = enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				6C8B6F0229214855005AB8BE /* ViewController.swift in Sources */,
 				6C8B6EFE29214855005AB8BE /* AppDelegate.swift in Sources */,
+				6C8B6F1329575919005AB8BE /* enumToast.swift in Sources */,
 				6C8B6F0029214855005AB8BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
